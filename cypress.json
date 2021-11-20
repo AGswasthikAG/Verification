@@ -1,0 +1,8 @@
+{
+    "chromeWebSecurity": false,
+    "testFiles": "**/*.feature",
+    "env": {
+        "assignemnt URL": "https://in.bookmyshow.com/"
+
+      }
+}
