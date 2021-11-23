@@ -23,7 +23,7 @@ class bookmyshow {
    }
    selectseats() {
       // return cy.get(".SRow1>#A_11_015>._available")
-      return cy.get("#A_3_021")
+      return cy.get("#B_2_015")
    }
    selectedseatstodisplay() {
 
@@ -31,9 +31,6 @@ class bookmyshow {
          cy.log(text)
       });
    }
-
-
-
 
 }
 export default bookmyshow

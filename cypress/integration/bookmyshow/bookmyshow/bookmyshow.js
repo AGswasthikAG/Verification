@@ -30,7 +30,8 @@ And("user accept the terms and condition", () => {
 
 })
 And("user click the select seat button", () => {
-    data.selectseatbtn().click()
+    cy.wait(3000)
+    data.selectseatbtn().click({force: true})
 
 })
 And("user choose the seats number", () => {

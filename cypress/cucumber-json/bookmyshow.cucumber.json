@@ -23,7 +23,7 @@
             "name": "User have valid url",
             "result": {
               "status": "passed",
-              "duration": 5994000000
+              "duration": 14125000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "user select the location",
             "result": {
               "status": "passed",
-              "duration": 567000000
+              "duration": 533000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "user search the PVR",
             "result": {
               "status": "passed",
-              "duration": 1459000000
+              "duration": 463000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "user select the kormangal",
             "result": {
               "status": "passed",
-              "duration": 6263000000
+              "duration": 20022000000
             }
           },
           {
@@ -62,9 +62,8 @@
             "line": 10,
             "name": "user select the firstmovie snd firstshow",
             "result": {
-              "status": "failed",
-              "duration": 4290000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `ul[id='showEvents']>ul>li:nth-of-type(2)>.body.__cn-list>._available.showtime-pill-container:first-of-type`, but never found it.\n    at bookmyshow.firstmovieandfirstshow (https://in.bookmyshow.com/__cypress/tests?p=cypress\\integration\\bookmyshow\\bookmyshow.feature:115:17)\n    at Context.eval (https://in.bookmyshow.com/__cypress/tests?p=cypress\\integration\\bookmyshow\\bookmyshow.feature:57:8)\n    at Context.resolveAndRunStepDefinition (https://in.bookmyshow.com/__cypress/tests?p=cypress\\integration\\bookmyshow\\bookmyshow.feature:7132:29)\n    at Context.eval (https://in.bookmyshow.com/__cypress/tests?p=cypress\\integration\\bookmyshow\\bookmyshow.feature:6453:35)"
+              "status": "passed",
+              "duration": 887000000
             }
           },
           {
@@ -73,7 +72,8 @@
             "line": 11,
             "name": "user accept the terms and condition",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1003000000
             }
           },
           {
@@ -82,7 +82,8 @@
             "line": 12,
             "name": "user click the select seat button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3622000000
             }
           },
           {
@@ -91,7 +92,8 @@
             "line": 13,
             "name": "user choose the seats number",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 757000000
             }
           },
           {
@@ -100,7 +102,8 @@
             "line": 14,
             "name": "displyed the seaat number",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 384000000
             }
           }
         ]
